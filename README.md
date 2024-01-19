@@ -4,4 +4,3 @@
 ### **Black Lotus -** *Головна сторінка*
 ### ~~**Black Lotus Tech -** *Техніка*~~
 ### ~~**Black Lotus Cloth -** *Одяг*~~
-### ~~**Black Lotus Sneakers -** *Кросівки*~~
