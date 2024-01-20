@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Xarrovv';
+    src: url('./Fonts/Xarrovv.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Xarrovv';
+    src: url('./Fonts/XarrovvBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    font-family: 'Xarrovv', 'Roboto', sans-serif;
+    font-weight: bold;
+}
+body {
+    color: #ffffff;
+    background-color: #000000;
+}
+#header-logo {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
