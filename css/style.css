@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Xarrovv';
-    src: url('./fonts/Xarrovv.otf') format('woff'), url('./fonts/Xarrovv.woff2') format('woff2');
+    src: url('/fonts/Xarrovv.woff2') format('woff2'), url('/fonts/Xarrovv.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Xarrovv';
-    src: url('./fonts/XarrovvBold.woff') format('woff'), url('./fonts/XarrovvBold.woff2') format('woff2');
+    src: url('/fonts/XarrovvBold.woff2') format('woff2'), url('/fonts/XarrovvBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
