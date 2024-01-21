@@ -12,7 +12,6 @@
     font-style: normal;
 }
 
-
 * {
     margin: 0;
     outline: none;
@@ -64,27 +63,26 @@ body {
 
 .header-menu-inside {
     list-style: none;
-}
-
-.footer-menu-inside {
-    list-style: none;
-}
-
-.header-menu-inside {
     display: flex;
     justify-content: center;
     gap: 30px;
     text-align: center;
     align-items: center;
     margin-right: 100px;
+    font-size: 20px;
+}
+
+.footer-menu-inside {
+    list-style: none;
 }
 
 .header-menu {
     display: flex;
+    position: absolute;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 0px;
 }
 
 .header-second {
@@ -92,18 +90,10 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.header-menu-inside li {
     font-size: 20px;
 }
 
 .header-second-other {
     display: flex;
-    align-items: center;
-    margin-left: 70px;
-}
-
-.header-second-other h6 {
-    font-size: 20px;
+    margin-left: 85%;
 }
