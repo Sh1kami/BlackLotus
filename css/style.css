@@ -66,13 +66,23 @@ body {
 .header-menu-inside {
     list-style: none;
     display: flex;
-    /* justify-content: center; */
-    text-align: center;
-    gap: 10px;
-    text-align: center;
-    align-items: center;
-    margin-right: 100px;
+    gap: 15px;
+    /* margin-right: 40px; */
     font-size: 20px;
+}
+
+.header-menu {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-second-other {
+    position: absolute;
+    right: 100px;
+    display: flex;
+    gap: 15px;
 }
 
 .footer-menu-inside {
@@ -82,23 +92,4 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header-menu {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    width: 100%;
-    list-style-type: none;
-}
-
-.header-menu li {
-    margin-right: 10px;
-}
-
-.header-second-other {
-    position: absolute;
-    right: 100px;
-    display: flex;
-    flex-direction: row;
 }
