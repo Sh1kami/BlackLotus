@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Xarrovv';
     src: url('/fonts/Xarrovv.woff2') format('woff2'), url('/fonts/Xarrovv.woff') format('woff');
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -9,7 +9,15 @@
 @font-face {
     font-family: 'Xarrovv';
     src: url('/fonts/XarrovvBold.woff2') format('woff2'), url('/fonts/XarrovvBold.woff') format('woff');
-    font-weight: 700;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SAIBA';
+    src: url('/fonts/Temp/SAIBA.otf') format('opentype');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -45,8 +53,7 @@ main {
 }
 
 body {
-    font-family: 'Xarrovv', sans-serif;
-    font-weight: 700;
+    font-family: 'SAIBA', sans-serif;
     color: #ffffff;
     background-color: #000000;
 }
