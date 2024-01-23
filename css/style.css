@@ -30,12 +30,22 @@
     scrollbar-width: none;
 }
 
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
 body {
     font-family: 'Xarrovv', sans-serif;
     font-weight: bold;
+    overflow: auto;
     color: var(--color-main-white);
     background-color: var(--color-main-black);
     line-height: 1.5;
+    margin: 0;
 }
 
 ul {
@@ -51,8 +61,6 @@ ul {
 .header {
     display: block;
     position: relative;
-    width: 100%;
-    z-index: 11;
 }
 
 .header-first {
@@ -61,8 +69,7 @@ ul {
 }
 
 .header-logo {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-top: 0.5%;
 }
 
@@ -145,7 +152,7 @@ ul {
     text-transform: uppercase;
     width: 100%;
     display: flex;
-    margin-top: 500px;
+    margin-top: 640px;
 }
 
 .main-phrase span {
