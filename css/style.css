@@ -75,6 +75,7 @@ ul {
 .header-second {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     text-transform: uppercase;
 }
@@ -114,9 +115,8 @@ ul {
 }
 
 .header-second-other {
-    /* margin-left: auto;
-    margin-top: 1.2%;
-    padding-right: 50px; */
+    margin-left: auto;
+    padding-right: 50px;
     display: flex;
     position: relative;
 }
