@@ -46,6 +46,7 @@ body {
     background-color: var(--color-main-black);
     line-height: 1.5;
     margin: 0;
+    user-select: none;
 }
 
 ul {
@@ -56,15 +57,11 @@ img {
     pointer-events: none;
 }
 
-/* ul:hover {
-    text-decoration: underline;
-} */
-
 /* HEADER */
 
 .header {
     display: block;
-    position: relative;
+    position: relat;
 }
 
 .header-first {
