@@ -2,18 +2,18 @@
 
 @font-face {
     font-family: 'Xarrovv';
-    src: url('../fonts/Xarrovv.woff2') format('woff2'), url('../fonts/Xarrovv.woff') format('woff');
-    font-weight: normal;
     font-style: normal;
+    font-weight: normal;
     font-display: swap;
+    src: url('../fonts/Xarrovv.woff2') format('woff2'), url('../fonts/Xarrovv.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Xarrovv';
-    src: url('../fonts/XarrovvBold.woff2') format('woff2'), url('../fonts/XarrovvBold.woff') format('woff');
-    font-weight: bold;
     font-style: normal;
+    font-weight: bold;
     font-display: swap;
+    src: url('../fonts/XarrovvBold.woff2') format('woff2'), url('../fonts/XarrovvBold.woff') format('woff');
 }
 
 /* ROOT */
@@ -39,13 +39,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    color: var(--color-main-white);
     font-family: 'Xarrovv', sans-serif;
     font-weight: bold;
-    overflow: auto;
-    color: var(--color-main-white);
-    background-color: var(--color-main-black);
     line-height: 1.5;
-    margin: 0;
     user-select: none;
 }
 
@@ -60,6 +60,13 @@ img {
 /* anime */
 
 /* HEADER */
+
+.header-main-app {
+    background-attachment: fixed;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .header {
     display: block;
@@ -77,46 +84,46 @@ img {
 
 .header-second {
     display: flex;
-    justify-content: right;
-    align-items: center;
     position: relative;
     text-transform: uppercase;
+    align-items: center;
+    justify-content: right;
 }
 
 .header-menu {
-    align-items: center;
     display: flex;
-    height: 70px;
-    justify-content: center;
-    line-height: 100%;
     position: absolute;
+    height: 70px;
     width: 100%;
+    line-height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-menu-inside {
     display: flex;
-    gap: 15px;
     font-size: 16px;
     text-transform: uppercase;
+    gap: 15px;
 }
 
 .header-menu-item {
-    text-decoration: none;
-    color: var(--color-main-white);
-    cursor: pointer;
     display: flex;
     position: relative;
+    color: var(--color-main-white);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .header-other-item {
-    text-decoration: none;
     color: var(--color-main-white);
+    text-decoration: none;
 }
 
 .header-second-other {
-    padding-right: 50px;
     display: flex;
     position: relative;
+    padding-right: 50px;
 }
 
 .header-second-other-inside {
@@ -128,28 +135,28 @@ img {
 
 .main-app-page {
     display: flex;
-    flex-direction: column;
     position: relative;
+    flex-direction: column;
 }
 
 .main-phrase {
-    align-items: center;
-    background: var(--color-main-white);
-    contain: strict;
     display: flex;
-    height: 140px;
-    justify-content: center;
+    display: flex;
     position: relative;
-    text-transform: uppercase;
+    height: 140px;
     width: 100%;
-    display: flex;
     margin-top: 640px;
+    text-transform: uppercase;
+    background: var(--color-main-white);
+    align-items: center;
+    contain: strict;
+    justify-content: center;
 }
 
 .main-phrase span {
-    background: var(--color-main-black);
-    color: var(--color-main-white);
     padding: 5px 15px;
+    color: var(--color-main-white);
+    background: var(--color-main-black);
 }
 
 .main-phrase-text {
@@ -159,6 +166,9 @@ img {
 }
 
 /* FOOTER */
+.footer {
+    background-color: var(--color-main-black);
+}
 
 .footer-logo {
     margin-left: 30px;
@@ -167,16 +177,16 @@ img {
 /* FOOTER MENU */
 
 .footer-menu {
-    position: relative;
     display: flex;
-    justify-content: left;
+    position: relative;
     width: 100%;
+    justify-content: left;
 }
 
 .footer-menu-inside {
     display: flex;
-    gap: 15px;
     font-size: 20px;
+    gap: 15px;
 }
 
 /* ADDRESS */
@@ -188,10 +198,14 @@ img {
 
 .address-link {
     color: var(--color-main-white);
-    text-decoration: none;
     font-style: normal;
+    text-decoration: none;
 }
 
 .address-link:hover {
     text-decoration: underline;
+}
+.address-copyright {
+    margin: 0;
+    padding: 0;
 }
